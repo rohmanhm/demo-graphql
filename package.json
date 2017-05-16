@@ -20,6 +20,9 @@
     "@types/express-graphql": "^0.0.33",
     "@types/graphql": "^0.9.1",
     "@types/graphql-date": "^1.0.0",
-    "nodemon": "^1.11.0"
+    "concurrently": "^3.4.0",
+    "nodemon": "^1.11.0",
+    "tslint": "^5.2.0",
+    "typescript": "^2.3.2"
   }
 }
