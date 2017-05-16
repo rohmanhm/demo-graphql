@@ -28,7 +28,7 @@ export class Server implements ServerInterface {
 
   middleware () {
     // GraphQL Middleware
-    this.server.use('/graphiql', GraphQLMiddleware({
+    this.server.use('/', GraphQLMiddleware({
       graphiql: true,
       schema: rootSchema.schema
     }))

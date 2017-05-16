@@ -33,6 +33,14 @@ export const resolver = {
     }
 
     return db.people
+  },
+
+  async addPeople (_: any, args: {[key: string]: string}) {
+    await db.people.push((args as any))
+
+    return resolver.allPeople(null, {
+      username: args.username
+    })
   }
 }
 

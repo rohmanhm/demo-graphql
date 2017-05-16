@@ -1,8 +1,8 @@
 export type valuePeopleObject = {
-  username: string
-  name?: string
-  birthday?: Date
-  partner?: Array<string>
+  username: String
+  name?: String
+  birthday?: String
+  partner?: Array<String>
 }
 
 export type peopleObject = Array<valuePeopleObject>
@@ -27,7 +27,7 @@ export const people = [
     name: 'Mr. Rico',
     position: 'Wordpress Developer',
     birthday: '12-02-1990',
-    partner: ['dasril', 'oknoorap']
+    partner: ['dasril', 'oknoorap', 'hendy']
   },
   {
     username: 'dasril',
@@ -35,5 +35,12 @@ export const people = [
     position: 'Wordpress Developer',
     birthday: '23-07-1968',
     partner: ['rico']
+  },
+  {
+    username: 'hendy',
+    name: 'Mr. Hendy',
+    position: 'Customer Support',
+    birthday: '10-04-1976',
+    partner: ['rico', 'dasril']
   }
 ]
