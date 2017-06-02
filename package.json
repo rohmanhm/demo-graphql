@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "author": {
+    "name": "Roman Masyhar",
+    "url": "https://github.com/rohmanhm",
+    "email": "mhrohman@live.com"
+  },
   "scripts": {
     "dev": "concurrently -k -p \"[{name}]\" -n \"TypeScript,Server\" -c \"blue.bold,green.bold\" \"yarn watch:ts\" \"yarn serve\" ",
     "serve": "nodemon dist/server/index.js",
