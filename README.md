@@ -13,6 +13,6 @@
     ```
 4. Open in your browser
     ```bash
-    https://localhost:3000/
+    http://localhost:3000/
     ```
 5. DONE.
