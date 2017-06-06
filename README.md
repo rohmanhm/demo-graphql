@@ -5,7 +5,7 @@
 - NodeJS
 
 ## How to run?
-1. Clone this project to your directory
+1. Clone this project to your local directory
 2. Install all dependencies
     ```bash
     npm install
