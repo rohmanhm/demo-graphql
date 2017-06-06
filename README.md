@@ -1,6 +1,9 @@
 # Simple Djavaweb GraphQL
 > Simple Djavaweb GraphQL Implementation
 
+## Prerequisite
+- NodeJS
+
 ## How to run?
 1. Clone this project to your directory
 2. Install all dependencies
