@@ -19,3 +19,6 @@
     http://localhost:3000/
     ```
 5. DONE.
+
+## LICENSE
+MIT [@rohmanhm](https://github.com/rohmanhm)
